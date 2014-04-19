@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="" />
+    <ignored path="calendar-cmd-line-sample.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="calendar-cmd-line-sample" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="sample.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="26" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.20671563" vertical-offset="2233" max-vertical-offset="3186">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="24" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="774">
+              <folding>
+                <marker date="1397903134417" expanded="true" signature="398:814" placeholder="..." />
+                <marker date="1397903134417" expanded="true" signature="748:814" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlsample.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/sqlsample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="252">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlprint.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/sqlprint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="23" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="11" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1242">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_parser.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/time_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shedule_parser.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shedule_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change_parser.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="84" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script_table.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script_table.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="0" selection-start="4148" selection-end="4148" vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="3006">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/oauth2client/client.py" />
+        <option value="$PROJECT_DIR$/apiclient/discovery.py" />
+        <option value="$PROJECT_DIR$/my_rfc3339.py" />
+        <option value="$PROJECT_DIR$/AtomTime.py" />
+        <option value="$PROJECT_DIR$/script_table.py" />
+        <option value="$PROJECT_DIR$/time_parser.py" />
+        <option value="$PROJECT_DIR$/change_parser.py" />
+        <option value="$PROJECT_DIR$/shedule_parser.py" />
+        <option value="$PROJECT_DIR$/sample.py" />
+        <option value="$PROJECT_DIR$/excel.py" />
+        <option value="$PROJECT_DIR$/sqlsample.py" />
+        <option value="$PROJECT_DIR$/sqlprint.py" />
+        <option value="$PROJECT_DIR$/sql.py" />
+        <option value="$PROJECT_DIR$/sql/sqlprint.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyArgumentListInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar-cmd-line-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar-cmd-line-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar-cmd-line-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="last.edited.regexp" value="Т.В. ру" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mpt" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="calendar-cmd-line-sample" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="calendar-cmd-line-sample" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sqlprint">
+    <configuration default="false" name="time_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="shedule_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shedule_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sqlsample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql/sqlsample.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sqlprint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql/sqlprint.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.time_parser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shedule_parser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.excel" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sqlsample" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sqlprint" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.sqlprint" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sqlsample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.excel" />
+        <item index="3" class="java.lang.String" itemvalue="Python.time_parser" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shedule_parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="" />
+      <created>1396844079088</created>
+      <updated>1396844079088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32858595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="244" y="112" width="1335" height="810" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="19" selection-start="3597" selection-end="3597" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="3456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/apiclient/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="722" column="0" selection-start="22831" selection-end="22831" vertical-scroll-proportion="0.0" vertical-offset="12996" max-vertical-offset="29070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="31" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1998">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="27" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0" vertical-offset="1027" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="4" selection-start="5598" selection-end="5598" vertical-scroll-proportion="0.0" vertical-offset="2707" max-vertical-offset="9216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="506" column="0" selection-start="14374" selection-end="14374" vertical-scroll-proportion="0.33214286" vertical-offset="8634" max-vertical-offset="24372" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/posixpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="0" selection-start="4459" selection-end="4459" vertical-scroll-proportion="0.33214286" vertical-offset="2316" max-vertical-offset="8046" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/stat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.33214286" vertical-offset="804" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1709" column="0" selection-start="61374" selection-end="61374" vertical-scroll-proportion="0.33214286" vertical-offset="30450" max-vertical-offset="42516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="28" selection-start="4460" selection-end="4460" vertical-scroll-proportion="-1.1785715" vertical-offset="2712" max-vertical-offset="4284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.33214286" vertical-offset="408" max-vertical-offset="2232" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1286" column="0" selection-start="46283" selection-end="46283" vertical-scroll-proportion="0.33214286" vertical-offset="22818" max-vertical-offset="29160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uritemplate/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.775" vertical-offset="2176" max-vertical-offset="2736" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/UserDict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.33214286" vertical-offset="1074" max-vertical-offset="3348" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httplib2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1257" column="0" selection-start="50889" selection-end="50889" vertical-scroll-proportion="0.0" vertical-offset="22336" max-vertical-offset="29934" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/httplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="372" column="0" selection-start="12356" selection-end="12356" vertical-scroll-proportion="0.33214286" vertical-offset="6420" max-vertical-offset="24174" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="49" selection-start="7138" selection-end="7147" vertical-scroll-proportion="-1.0666667" vertical-offset="4146" max-vertical-offset="6408" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="371" column="8" selection-start="13199" selection-end="13199" vertical-scroll-proportion="0.42857143" vertical-offset="6336" max-vertical-offset="6966" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/apiclient/discovery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="4" selection-start="3907" selection-end="3907" vertical-scroll-proportion="0.0" vertical-offset="3210" max-vertical-offset="17208" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1537" column="0" selection-start="60667" selection-end="60667" vertical-scroll-proportion="0.0" vertical-offset="25792" max-vertical-offset="26622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="86" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.35" vertical-offset="448" max-vertical-offset="1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2client/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="0" selection-start="3874" selection-end="3874" vertical-scroll-proportion="0.33333334" vertical-offset="2076" max-vertical-offset="3564" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/posix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="855" column="4" selection-start="20070" selection-end="20070" vertical-scroll-proportion="0.3326338" vertical-offset="15073" max-vertical-offset="27792" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/apiclient/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="781" column="9" selection-start="24767" selection-end="24767" vertical-scroll-proportion="-0.5714286" vertical-offset="13914" max-vertical-offset="28566" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4703" column="33" selection-start="159240" selection-end="159241" vertical-scroll-proportion="0.33333334" vertical-offset="84454" max-vertical-offset="92934" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="608" column="9" selection-start="20129" selection-end="20129" vertical-scroll-proportion="0.33333334" vertical-offset="10734" max-vertical-offset="11574" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pytz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="872" column="11" selection-start="21538" selection-end="21547" vertical-scroll-proportion="0.36333334" vertical-offset="15478" max-vertical-offset="27288" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/rfc3339.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="18" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.123333335" vertical-offset="1258" max-vertical-offset="5076" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_rfc3339.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="7" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-1.4366666" vertical-offset="1816" max-vertical-offset="4428" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1635" column="8" selection-start="36780" selection-end="36780" vertical-scroll-proportion="0.35152152" vertical-offset="29095" max-vertical-offset="36684" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="8" selection-start="15899" selection-end="15899" vertical-scroll-proportion="0.3326338" vertical-offset="6613" max-vertical-offset="43524" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/xlrd/formula.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2068" column="4" selection-start="90592" selection-end="90592" vertical-scroll-proportion="0.33297873" vertical-offset="36821" max-vertical-offset="39240" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/unicodedata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="4" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.09443861" vertical-offset="2052" max-vertical-offset="5094" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="4" selection-start="6632" selection-end="6632" vertical-scroll-proportion="0.3326338" vertical-offset="2131" max-vertical-offset="5958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shedule_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="84" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4148" selection-end="4148" vertical-scroll-proportion="0.0" vertical-offset="2053" max-vertical-offset="3006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="757" column="29" selection-start="30034" selection-end="30034" vertical-scroll-proportion="0.21930745" vertical-offset="13147" max-vertical-offset="60786" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="434" column="0" selection-start="15181" selection-end="15181" vertical-scroll-proportion="0.3326338" vertical-offset="7351" max-vertical-offset="17190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sqlsample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="24" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <marker date="1397903134417" expanded="true" signature="398:814" placeholder="..." />
+            <marker date="1397903134417" expanded="true" signature="748:814" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sqlprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="26" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.20671563" vertical-offset="2233" max-vertical-offset="3186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
