@@ -522,7 +522,11 @@
       <created>1397926559806</created>
       <updated>1397926559806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="work with sql">
+      <created>1397926564311</created>
+      <updated>1397926564311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
