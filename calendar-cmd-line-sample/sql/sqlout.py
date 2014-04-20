@@ -3,5 +3,7 @@
 from sql import *
 
 session = Session()
-abspar = session.query(AbstractPara).all()
-print abspar
+
+para = session.query(AbstractPara).all()
+
+print para

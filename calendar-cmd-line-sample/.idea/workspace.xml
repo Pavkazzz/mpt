@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/sqlout.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/shedule.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sqlprint.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/pavka.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/pavka.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sql.py" afterPath="$PROJECT_DIR$/sql/sql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqladd.py" afterPath="$PROJECT_DIR$/sql/sqladd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlout.py" afterPath="$PROJECT_DIR$/sql/sqlout.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calendar-cmd-line-sample.iws" />
@@ -34,7 +32,7 @@
       <file leaf-file-name="sql.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="22" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2664">
+            <state line="9" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -42,19 +40,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqladd.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sqladd.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/sqladd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+            <state line="16" column="0" selection-start="285" selection-end="302" vertical-scroll-proportion="0.30220357" vertical-offset="0" max-vertical-offset="953">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instrumentation.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/instrumentation.py">
+      <file leaf-file-name="sqlout.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/sqlout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="21" selection-start="5424" selection-end="5424" vertical-scroll-proportion="0.18992655" vertical-offset="2609" max-vertical-offset="9054">
+            <state line="8" column="10" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shedule_parser.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shedule_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -94,10 +101,11 @@
         <option value="$PROJECT_DIR$/sql.py" />
         <option value="$PROJECT_DIR$/sql/sqlsample.py" />
         <option value="$PROJECT_DIR$/sql/codagen.py" />
-        <option value="$PROJECT_DIR$/sql/sqladd.py" />
         <option value="$PROJECT_DIR$/sql/sqlprint.py" />
-        <option value="$PROJECT_DIR$/sql/sql.py" />
+        <option value="$PROJECT_DIR$/shedule.db" />
         <option value="$PROJECT_DIR$/sql/sqlout.py" />
+        <option value="$PROJECT_DIR$/sql/sql.py" />
+        <option value="$PROJECT_DIR$/sql/sqladd.py" />
       </list>
     </option>
   </component>
@@ -202,6 +210,7 @@
     <property name="last.edited.regexp" value="Т.В. ру" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -212,12 +221,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sqlsample">
-    <configuration default="false" name="sqlsample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sqlout">
+    <configuration default="false" name="sqladd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -437,7 +449,7 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sqlsample" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sqladd" />
       <item index="1" class="java.lang.String" itemvalue="Python.sqlprint" />
       <item index="2" class="java.lang.String" itemvalue="Python.sql" />
       <item index="3" class="java.lang.String" itemvalue="Python.shedule_parser" />
@@ -445,8 +457,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sqlsample" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqlout" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sqlout" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sqladd" />
         <item index="2" class="java.lang.String" itemvalue="Python.sql" />
         <item index="3" class="java.lang.String" itemvalue="Python.sqlprint" />
         <item index="4" class="java.lang.String" itemvalue="Python.shedule_parser" />
@@ -494,25 +506,29 @@
       <created>1397930819266</created>
       <updated>1397930819266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="work with sql">
+      <created>1397986220927</created>
+      <updated>1397986220927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32858595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="97" y="230" width="1741" height="808" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32858595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="24" width="1920" height="1084" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5818922" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -558,13 +574,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/sql/sqladd.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -572,18 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql/sqlout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="371" column="8" selection-start="13199" selection-end="13199" vertical-scroll-proportion="0.42857143" vertical-offset="6336" max-vertical-offset="6966" />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/apiclient/discovery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="4" selection-start="3907" selection-end="3907" vertical-scroll-proportion="0.0" vertical-offset="3210" max-vertical-offset="17208" />
@@ -669,11 +666,6 @@
         <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shedule_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.2644281" vertical-offset="0" max-vertical-offset="953" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/change_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="84" selection-start="145" selection-end="145" vertical-scroll-proportion="0.09443861" vertical-offset="0" max-vertical-offset="953" />
@@ -716,12 +708,16 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="41" selection-start="5758" selection-end="5758" vertical-scroll-proportion="0.3716143" vertical-offset="2411" max-vertical-offset="9090" />
+        <state line="167" column="41" selection-start="5758" selection-end="5758" vertical-scroll-proportion="0.3716143" vertical-offset="2411" max-vertical-offset="9090">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2169" column="72" selection-start="86126" selection-end="86130" vertical-scroll-proportion="0.33261105" vertical-offset="38465" max-vertical-offset="60786" />
+        <state line="2169" column="72" selection-start="86126" selection-end="86130" vertical-scroll-proportion="0.33261105" vertical-offset="38465" max-vertical-offset="60786">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/identity.py">
@@ -736,7 +732,9 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="3222" />
+        <state line="69" column="0" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0" vertical-offset="1061" max-vertical-offset="3222">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/event/base.py">
@@ -771,7 +769,9 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative/clsregistry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="7816" selection-end="7816" vertical-scroll-proportion="0.13326338" vertical-offset="4103" max-vertical-offset="5544" />
+        <state line="242" column="0" selection-start="7816" selection-end="7816" vertical-scroll-proportion="0.13326338" vertical-offset="4103" max-vertical-offset="5544">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/util/_collections.py">
@@ -792,22 +792,6 @@
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/relationships.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2368" column="29" selection-start="99341" selection-end="99341" vertical-scroll-proportion="0.59706193" vertical-offset="41821" max-vertical-offset="47502" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqlout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11332634" vertical-offset="0" max-vertical-offset="953">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="22" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2664">
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/util/langhelpers.py">
@@ -831,16 +815,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqladd.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/instrumentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+        <state line="157" column="21" selection-start="5424" selection-end="5424" vertical-scroll-proportion="0.18992655" vertical-offset="2609" max-vertical-offset="9054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/instrumentation.py">
+    <entry file="file://$PROJECT_DIR$/sql/sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="21" selection-start="5424" selection-end="5424" vertical-scroll-proportion="0.18992655" vertical-offset="2609" max-vertical-offset="9054">
+        <state line="9" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2664">
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sqlout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shedule_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sqladd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="285" selection-end="302" vertical-scroll-proportion="0.30220357" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>

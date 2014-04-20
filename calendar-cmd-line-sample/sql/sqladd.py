@@ -3,7 +3,6 @@ from sql import *
 
 session = Session()
 
-
 abspara = AbstractPara(1, 1, 1)
 session.add(abspara)
 

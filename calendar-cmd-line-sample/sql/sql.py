@@ -128,12 +128,12 @@ class AbstractPara(Base):
         self.teach_id = teach_id
         self.gruppa_id = gruppa_id
 
-    def __repr__(self):
+    #def __repr__(self):
         #tempteach = session.query(Teacher).filter_by(id=AbstractPara.teach_id).first()
         #tempdisc = session.query(Discipline).filter_by(id=AbstractPara.disc_id).first()
         #tempgruppa = session.query(Gruppa).filter_by(id=AbstractPara.gruppa_id).first()
         #yield '%s, %s, %s' % (tempgruppa.name, tempdisc.name, tempteach.lastname)
-        return self.id
+        #return self.id
 
 
 Base.metadata.create_all(engine)
