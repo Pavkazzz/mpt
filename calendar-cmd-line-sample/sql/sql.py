@@ -1,4 +1,5 @@
-# coding=utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session, backref, relationship
 from sqlalchemy.ext.declarative import declarative_base
@@ -12,6 +13,7 @@ engine = create_engine('sqlite:///../shedule.db', echo=True)
 Session = scoped_session(sessionmaker(bind=engine))
 
 metadata = Base.metadata
+
 
 class Teacher(Base):
     """
@@ -34,6 +36,7 @@ class Teacher(Base):
 
     def __repr__(self):
         return '%s %s %s' % (self.lastname, self.name, self.otch)
+
 
 ''' Устарело
 class Week(Base):
@@ -72,6 +75,7 @@ class Day(Base):
     def __repr__(self):
         return '%s' % self.name
 '''
+
 
 class Discipline(Base):
     """
@@ -129,33 +133,12 @@ class AbstractPara(Base):
         self.gruppa_id = gruppa_id
 
     def __repr__(self):
-        session = Session()
-        tempteach = session.query(Teacher).filter_by(id=AbstractPara.teach_id).first()
-        tempdisc = session.query(Discipline).filter_by(id=AbstractPara.disc_id).first()
-        tempgruppa = session.query(Gruppa).filter_by(id=AbstractPara.gruppa_id).first()
-        return '%s, %s, %s' % (tempgruppa.name, tempdisc.name, tempteach.lastname)
+        pass
+        #TODO доделать правильный вывод
 
 
-if __name__=='__main__':
-
+if __name__ == '__main__':
     Base.metadata.create_all(engine)
-
-
-    abspara = AbstractPara(1, 1, 1)
-    teach = Teacher(u'Караваев', u'Сергей', u'Владимирович')
-    disc = Discipline(u'ТРПО')
-    grupp = Gruppa(u'П-329')
-
-    session = Session()
-
-    session.add(abspara)
-    session.add(teach)
-    session.add(disc)
-    session.add(grupp)
-
-    session.commit()
-
-
 
 
 
