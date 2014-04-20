@@ -128,15 +128,34 @@ class AbstractPara(Base):
         self.teach_id = teach_id
         self.gruppa_id = gruppa_id
 
-    #def __repr__(self):
-        #tempteach = session.query(Teacher).filter_by(id=AbstractPara.teach_id).first()
-        #tempdisc = session.query(Discipline).filter_by(id=AbstractPara.disc_id).first()
-        #tempgruppa = session.query(Gruppa).filter_by(id=AbstractPara.gruppa_id).first()
-        #yield '%s, %s, %s' % (tempgruppa.name, tempdisc.name, tempteach.lastname)
-        #return self.id
+    def __repr__(self):
+        session = Session()
+        tempteach = session.query(Teacher).filter_by(id=AbstractPara.teach_id).first()
+        tempdisc = session.query(Discipline).filter_by(id=AbstractPara.disc_id).first()
+        tempgruppa = session.query(Gruppa).filter_by(id=AbstractPara.gruppa_id).first()
+        return '%s, %s, %s' % (tempgruppa.name, tempdisc.name, tempteach.lastname)
 
 
-Base.metadata.create_all(engine)
+if __name__=='__main__':
+
+    Base.metadata.create_all(engine)
+
+
+    abspara = AbstractPara(1, 1, 1)
+    teach = Teacher(u'Караваев', u'Сергей', u'Владимирович')
+    disc = Discipline(u'ТРПО')
+    grupp = Gruppa(u'П-329')
+
+    session = Session()
+
+    session.add(abspara)
+    session.add(teach)
+    session.add(disc)
+    session.add(grupp)
+
+    session.commit()
+
+
 
 
 
