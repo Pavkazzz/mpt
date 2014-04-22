@@ -3,7 +3,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session, backref, relationship
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Boolean
+from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Boolean, Time
 
 
 Base = declarative_base()
@@ -27,7 +27,10 @@ class Teacher(Base):
     lastname = Column(Unicode)
     name = Column(Unicode)
     otch = Column(Unicode)
-    teacher = relationship("AbstractPara", backref="Teacher")
+    #teacher = relationship("AbstractPara", backref="Teacher", )
+
+    teacher = relationship("AbstractPara")
+    # Подразумевается primaryjoin="and_(Teacher.id==AbstractPara.teach_id)"
 
     def __init__(self, lastname, name, otch):
         self.lastname = lastname
@@ -135,6 +138,29 @@ class AbstractPara(Base):
     def __repr__(self):
         pass
         #TODO доделать правильный вывод
+
+class Para(Base):
+    """
+    Таблица Пара
+    Модель Текущая пара
+    """
+    __tablename__ = 'Para'
+
+    id = Column(Integer, primary_key=True)
+
+    abspara_id = Column(Integer, ForeignKey('AbstractPara.id'))
+
+    date = Column(Date)
+    timebegin = Column(Time)
+    timeend = Column(Time)
+
+    def __init__(self, date, timebegin, timeend):
+        self.date = date
+        self.timebegin = timebegin
+        self.timeend = timeend
+
+    def __repr__(self):
+        pass
 
 
 if __name__ == '__main__':

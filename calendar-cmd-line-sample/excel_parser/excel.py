@@ -2,7 +2,6 @@
 
 import xlrd
 import re
-from unicodedata import normalize
 
 book = xlrd.open_workbook('2203_Raspisanie.xls')
 
@@ -28,17 +27,16 @@ def numerator(sheet):
             continue
 
         if row_index % 2 == 1:
+            print sheet.cell(row_index, col_index-1).value
             print cells.value
-            print sheet.cell(row_index, col_index-1)
 
 
         #Фамилии и инициалы преподавателей: пример Т.В. Руденко
-        if re.search(ur'^[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is not None:
+        if re.match(ur'^[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is not None:
             print cells.value
 
 
 def denominator(sheet):
-    #TODO Сделать
     """
     Неделя знаменатель
 
@@ -52,12 +50,13 @@ def denominator(sheet):
         if isinstance(cells.value, float):
             continue
 
-        if row_index % 2 == 1:
+        if row_index % 2 == 0:
             print cells.value
-
-        if re.search(ur'^[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is not None:
-            print cells.value
+        else:
+            if re.search(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is None:
+                print cells.value
 
 
 if __name__ == '__main__':
-    numerator(sheet)
+    #numerator(sheet)
+    denominator(sheet)
