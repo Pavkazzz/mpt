@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excel_parser/disciplineparse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlinto.py" afterPath="$PROJECT_DIR$/sql/sqlinto.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calendar-cmd-line-sample.iws" />
@@ -691,7 +689,11 @@
       <created>1398168769464</created>
       <updated>1398168769464</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Список учителей">
+      <created>1398169558109</created>
+      <updated>1398169558109</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
