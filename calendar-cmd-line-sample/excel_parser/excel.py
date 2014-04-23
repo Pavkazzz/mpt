@@ -19,7 +19,7 @@ def numerator(sheet):
     :param sheet: excel таблица
     """
     array = []
-    for row_index in range(11, sheet.nrows):
+    for row_index in range(11, sheet.nrows-3):
         #for col_index in range(sheet.ncols):
         col_index = 5  # 5 для 29 групп
         cells = sheet.cell(row_index, col_index)
@@ -45,7 +45,8 @@ def denominator(sheet):
 
     :param sheet: excel таблица
     """
-    for row_index in range(11, sheet.nrows):
+    array = []
+    for row_index in range(11, sheet.nrows-3):
         #for col_index in range(sheet.ncols):
         col_index = 5
         cells = sheet.cell(row_index, col_index)
@@ -54,12 +55,14 @@ def denominator(sheet):
             continue
 
         if row_index % 2 == 0:
-            print cells.value
+            array[len(array) - 1] += ' ' + cells.value
         else:
             if re.search(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is None:
-                print cells.value
+                array.append(cells.value)
 
+    for item in array:
+        print item
 
 if __name__ == '__main__':
-    numerator(sheet)
-    #denominator(sheet)
+    #numerator(sheet)
+    denominator(sheet)
