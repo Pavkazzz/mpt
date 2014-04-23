@@ -18,22 +18,25 @@ def numerator(sheet):
     Расхуяриваем таблицу для числителя
     :param sheet: excel таблица
     """
+    array = []
     for row_index in range(11, sheet.nrows):
         #for col_index in range(sheet.ncols):
         col_index = 5  # 5 для 29 групп
         cells = sheet.cell(row_index, col_index)
 
-        if isinstance(cells.value, float):
+        if isinstance(cells.value, float) or cells.value == '':
             continue
 
         if row_index % 2 == 1:
-            print sheet.cell(row_index, col_index-1).value
-            print cells.value
+            #print sheet.cell(row_index, col_index - 1).value
+            array.append(cells.value)
 
 
         #Фамилии и инициалы преподавателей: пример Т.В. Руденко
         if re.match(ur'^[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is not None:
-            print cells.value
+            array[len(array) - 1] += ' ' + cells.value
+    for item in array:
+        print item
 
 
 def denominator(sheet):
@@ -58,5 +61,5 @@ def denominator(sheet):
 
 
 if __name__ == '__main__':
-    #numerator(sheet)
-    denominator(sheet)
+    numerator(sheet)
+    #denominator(sheet)

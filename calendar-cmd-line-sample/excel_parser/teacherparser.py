@@ -4,17 +4,16 @@ import xlrd
 import re
 #from sql import Teacher, Session
 
+def createteacherlist(book):
+    teacherlist = []
 
-book = xlrd.open_workbook('2203_Raspisanie.xls')
-
-teacherlist = []
-
-for num in range(0, book._all_sheets_count):
+    #for num in range(0, book._all_sheets_count):
+    num = 2
     sheet = book.sheet_by_index(num)
 
     for row_index in range(11, sheet.nrows):
 
-        for col_index in [2, 5]:
+        for col_index in [2]:  #5
 
 
             #col_index = 5  # 5 для 29 групп; 2 для 19 групп
@@ -24,9 +23,18 @@ for num in range(0, book._all_sheets_count):
                 continue
 
             teacher = re.findall(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, flags=re.UNICODE)
+
             for item in teacher:
                 if item not in teacherlist:
                     teacherlist.append(item)
 
-for teacher in teacherlist:
-    print teacher
+
+    return teacherlist
+
+if __name__ == '__main__':
+
+    book = xlrd.open_workbook('2203_Raspisanie.xls')
+
+    teacherlist = createteacherlist(book)
+    for teacher in teacherlist:
+        print teacher

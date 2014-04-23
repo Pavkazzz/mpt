@@ -8,7 +8,7 @@ from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Boolean, Time
 
 Base = declarative_base()
 
-engine = create_engine('sqlite:///../shedule.db', echo=True)
+engine = create_engine('sqlite:///../shedule.db', echo=False)
 
 Session = scoped_session(sessionmaker(bind=engine))
 
@@ -27,15 +27,16 @@ class Teacher(Base):
     lastname = Column(Unicode)
     name = Column(Unicode)
     otch = Column(Unicode)
-    #teacher = relationship("AbstractPara", backref="Teacher", )
+    abspara = relationship("AbstractPara", backref="teacher", viewonly=False)
 
-    teacher = relationship("AbstractPara")
+    #teacher = relationship("AbstractPara")
     # Подразумевается primaryjoin="and_(Teacher.id==AbstractPara.teach_id)"
 
     def __init__(self, lastname, name, otch):
         self.lastname = lastname
         self.name = name
         self.otch = otch
+
 
     def __repr__(self):
         return '%s %s %s' % (self.lastname, self.name, self.otch)
@@ -89,7 +90,7 @@ class Discipline(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(Unicode)
-    disc = relationship("AbstractPara", backref="Discipline")
+    abspara = relationship("AbstractPara", backref="discipline", viewonly=False)
 
     def __init__(self, name):
         self.name = name
@@ -107,7 +108,7 @@ class Gruppa(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(Unicode)
-    gruppa = relationship("AbstractPara", backref="Gruppa")
+    abspara = relationship("AbstractPara", backref="gruppa", viewonly=False)
 
     def __init__(self, name):
         self.name = name
@@ -128,16 +129,17 @@ class AbstractPara(Base):
     disc_id = Column(Integer, ForeignKey('Discipline.id'))
     teach_id = Column(Integer, ForeignKey('Teacher.id'))
     gruppa_id = Column(Integer, ForeignKey('Gruppa.id'))
+    para = relationship("Para", backref="abstractpara", viewonly=False)
 
+    def __init__(self, teacher, discipline, gruppa):
+        self.teacher = teacher
+        self.discipline = discipline
+        self.gruppa = gruppa
 
-    def __init__(self, disc_id, teach_id, gruppa_id):
-        self.disc_id = disc_id
-        self.teach_id = teach_id
-        self.gruppa_id = gruppa_id
-
-    def __repr__(self):
-        pass
+    #def __repr__(self):
+        #pass
         #TODO доделать правильный вывод
+
 
 class Para(Base):
     """
@@ -154,7 +156,8 @@ class Para(Base):
     timebegin = Column(Time)
     timeend = Column(Time)
 
-    def __init__(self, date, timebegin, timeend):
+    def __init__(self, abstractpara, date, timebegin, timeend):
+        self.abstractpara = abstractpara
         self.date = date
         self.timebegin = timebegin
         self.timeend = timeend

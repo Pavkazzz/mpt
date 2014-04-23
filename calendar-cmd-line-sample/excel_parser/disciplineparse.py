@@ -13,7 +13,7 @@ sheet = book.sheet_by_index(2)
 
 for row_index in xrange(11, sheet.nrows-3):
 
-    for col_index in [2, 5]:
+    for col_index in [2]: #5
 
 
         #col_index = 5  # 5 для 29 групп; 2 для 19 групп
@@ -23,9 +23,10 @@ for row_index in xrange(11, sheet.nrows-3):
             continue
 
         teacher = re.split(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, flags=re.UNICODE)
-        for item in teacher:
-            if item not in disciplinelist and u',' not in item:
-                disciplinelist.append(item)
+        if not u'БИРЮЛЕВО' in teacher and not u'БИБЛИОТЕЧНЫЙ ДЕНЬ' in teacher:
+            for item in teacher:
+                if item not in disciplinelist and u',' not in item:
+                    disciplinelist.append(item)
 
 for discipline in disciplinelist:
     print discipline
