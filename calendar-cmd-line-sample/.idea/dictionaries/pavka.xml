@@ -2,13 +2,16 @@
   <dictionary name="pavka">
     <words>
       <w>abstractpara</w>
+      <w>createteacherlist</w>
       <w>gruppa</w>
       <w>httplib</w>
       <w>lastname</w>
       <w>otch</w>
       <w>shedule</w>
+      <w>sqldisc</w>
       <w>sqlite</w>
       <w>tablename</w>
+      <w>teacherlist</w>
     </words>
   </dictionary>
 </component>

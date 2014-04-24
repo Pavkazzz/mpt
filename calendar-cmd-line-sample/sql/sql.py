@@ -8,7 +8,7 @@ from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Boolean, Time
 
 Base = declarative_base()
 
-engine = create_engine('sqlite:///../shedule.db', echo=False)
+engine = create_engine('sqlite:///../shedule.db', echo=True)
 
 Session = scoped_session(sessionmaker(bind=engine))
 
@@ -37,9 +37,6 @@ class Teacher(Base):
         self.name = name
         self.otch = otch
 
-
-    def __repr__(self):
-        return '%s %s %s' % (self.lastname, self.name, self.otch)
 
 
 ''' Устарело
@@ -95,8 +92,6 @@ class Discipline(Base):
     def __init__(self, name):
         self.name = name
 
-    def __repr__(self):
-        return self.name
 
 
 class Gruppa(Base):
@@ -112,9 +107,6 @@ class Gruppa(Base):
 
     def __init__(self, name):
         self.name = name
-
-    def __repr__(self):
-        return self.name
 
 
 class AbstractPara(Base):

@@ -1,32 +1,35 @@
 # -*- coding: utf-8 -*-
 import xlrd
 import re
-#from sql import Teacher, Session
 
 
-book = xlrd.open_workbook('2203_Raspisanie.xls')
+def createdisciplinelist(book):
+    disciplinelist = []
 
-disciplinelist = []
+    for num in range(0, book._all_sheets_count):
+        sheet = book.sheet_by_index(num)
 
-#for num in range(0, book._all_sheets_count):
-sheet = book.sheet_by_index(2)
+        for row_index in xrange(11, sheet.nrows - 3):
+            for col_index in [2, 5]:  # 5 для 29 групп; 2 для 19 групп
+                cells = sheet.cell(row_index, col_index)
 
-for row_index in xrange(11, sheet.nrows-3):
+                if isinstance(cells.value, float):
+                    continue
 
-    for col_index in [2]: #5
+                disc = re.split(ur'[А-я]\.\s*[А-я]\.\s*[-А-яё]+', cells.value, flags=re.UNICODE)
 
+                if not [u'БИРЮЛЕВО', u'БИБЛИОТЕЧНЫЙ ДЕНЬ'] in disc:
+                    for item in disc:
+                        newitem = item.rstrip(' ')
+                        if newitem not in disciplinelist and newitem not in [u',', u'', u'ПРАКТИКА']:
+                            disciplinelist.append(newitem)
 
-        #col_index = 5  # 5 для 29 групп; 2 для 19 групп
-        cells = sheet.cell(row_index, col_index)
+    return disciplinelist
 
-        if isinstance(cells.value, float):
-            continue
+if __name__ == '__main__':
 
-        teacher = re.split(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, flags=re.UNICODE)
-        if not u'БИРЮЛЕВО' in teacher and not u'БИБЛИОТЕЧНЫЙ ДЕНЬ' in teacher:
-            for item in teacher:
-                if item not in disciplinelist and u',' not in item:
-                    disciplinelist.append(item)
+    book = xlrd.open_workbook('2203_Raspisanie.xls')
 
-for discipline in disciplinelist:
-    print discipline
+    disciplinelist = createdisciplinelist(book)
+    for discipline in disciplinelist:
+        print discipline
