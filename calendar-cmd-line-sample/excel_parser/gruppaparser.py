@@ -2,11 +2,9 @@
 
 import xlrd
 
+
 def creategrupplist(book):
-
     grupplist = []
-
-
 
     for num in range(0, book._all_sheets_count):
         sheet = book.sheet_by_index(num)
@@ -18,6 +16,7 @@ def creategrupplist(book):
             grupplist.append(cells.value)
 
     return grupplist
+
 
 if __name__ == '__main__':
 

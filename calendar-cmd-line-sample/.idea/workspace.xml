@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excel_parser/gruppaparser.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sql/sqlteacher.py" afterPath="$PROJECT_DIR$/sql/sqlexcel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/2203_Raspisanie.xls" afterPath="$PROJECT_DIR$/excel_parser/2203_Raspisanie.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/disciplineparse.py" afterPath="$PROJECT_DIR$/excel_parser/disciplineparse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/excel.py" afterPath="$PROJECT_DIR$/excel_parser/excel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/pavka.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/pavka.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sql.py" afterPath="$PROJECT_DIR$/sql/sql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlfind.py" afterPath="$PROJECT_DIR$/sql/sqlfind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/teacherparser.py" afterPath="$PROJECT_DIR$/excel_parser/teacherparser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/gruppaparser.py" afterPath="$PROJECT_DIR$/excel_parser/gruppaparser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calendar-cmd-line-sample.iws" />
@@ -88,7 +80,7 @@
       <file leaf-file-name="gruppaparser.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.40625" vertical-offset="0" max-vertical-offset="576">
+            <state line="19" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.36774194" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -707,7 +699,11 @@
       <created>1398253927955</created>
       <updated>1398253927955</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="a lot of things">
+      <created>1398333985247</created>
+      <updated>1398333985247</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -737,15 +733,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12862414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -791,7 +787,8 @@
     <MESSAGE value="Список учителей" />
     <MESSAGE value="Список дисциплин" />
     <MESSAGE value="pizdec" />
-    <option name="LAST_COMMIT_MESSAGE" value="pizdec" />
+    <MESSAGE value="a lot of things" />
+    <option name="LAST_COMMIT_MESSAGE" value="a lot of things" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1081,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.40625" vertical-offset="0" max-vertical-offset="576">
+        <state line="19" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.36774194" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
