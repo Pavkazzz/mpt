@@ -26,20 +26,21 @@ def numerator(book):
         sheet = book.sheet_by_index(num)
 
         for col_index in [2, 5]:  # 5 для 29 групп
-            for row_index in range(11, sheet.nrows-3):
+            for row_index in range(11, sheet.nrows - 3):
                 cells = sheet.cell(row_index, col_index)
 
                 if not valid(cells.value):
                     continue
 
                 if row_index % 2 == 1:
-                    #print sheet.cell(row_index, col_index - 1).value
                     array.append(cells.value + ' ' + sheet.cell(8, col_index).value)
-
-
-                #Фамилии и инициалы преподавателей: пример Т.В. Руденко
+                    #Номера пар
+                    if u'  ' in array[-1]:
+                        array[-1] += ' ' + unicode(sheet.cell(row_index, col_index - 1).value)[0]
+                #Фамилии и инициалы преподавателей: пример Т.В. Руденко и номер пары
                 if re.match(ur'^[А-я]\.\s*[А-я]\.\s*[-А-яё]+', cells.value, re.UNICODE) is not None:
-                    array[len(array) - 1] += ' ' + cells.value
+                    array[-1] += (
+                        ' ' + cells.value + ' ' + unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
 
     return array
 
@@ -56,20 +57,22 @@ def denominator(book):
         sheet = book.sheet_by_index(num)
 
         for col_index in [2, 5]:  # 5 для 29 групп
-            for row_index in range(11, sheet.nrows-3):
+            for row_index in range(11, sheet.nrows - 3):
                 cells = sheet.cell(row_index, col_index)
 
                 if not valid(cells.value):
                     continue
 
                 if row_index % 2 == 0:
-                    #Добавляем фамилии
+                    #Добавляем фамилии и номера пар
                     if re.match(ur'[А-я]\.\s*[А-я]\.\s*[-А-яё]+', cells.value, flags=re.UNICODE):
-                        array[len(array) - 1] += ' ' + cells.value + ' ' + sheet.cell(8, col_index).value
-
+                        array[-1] += ' ' + cells.value + ' ' + sheet.cell(8, col_index).value + ' ' + \
+                                     unicode(sheet.cell(row_index - 1, col_index - 1).value)[0]
                     else:
-                        #если пара уже из препода и предмета
-                        array.append(cells.value + ' ' + sheet.cell(8, col_index).value) #TODO: Переделать нормально
+                        #если пара уже из препода и предмета и добваляем номер пары
+                        array.append(cells.value + ' ' + sheet.cell(8, col_index).value + ' ' +
+                                     unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
+                                       #TODO: Переделать нормально
 
                 else:
                     #Добавляем предметы
@@ -78,10 +81,11 @@ def denominator(book):
 
     return array
 
+
 if __name__ == '__main__':
     book = xlrd.open_workbook('2203_Raspisanie.xls')
-    excel = numerator(book)
-    #excel = denominator(book)
+    #excel = numerator(book)
+    excel = denominator(book)
     for item in excel:
         print item
 

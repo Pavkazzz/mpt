@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, scoped_session, backref, relationship
+from sqlalchemy.orm import sessionmaker, scoped_session, relationship
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Boolean, Time
+from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Time
 
 
 Base = declarative_base()
@@ -30,7 +30,7 @@ class Teacher(Base):
     abspara = relationship("AbstractPara", backref="teacher", viewonly=False)
 
     #teacher = relationship("AbstractPara")
-    # Подразумевается primaryjoin="and_(Teacher.id==AbstractPara.teach_id)"
+    #Подразумевается primaryjoin="and_(Teacher.id==AbstractPara.teach_id)"
 
     def __init__(self, lastname, name, otch):
         self.lastname = lastname
@@ -93,7 +93,6 @@ class Discipline(Base):
         self.name = name
 
 
-
 class Gruppa(Base):
     """
     Таблица Группа
@@ -121,12 +120,14 @@ class AbstractPara(Base):
     disc_id = Column(Integer, ForeignKey('Discipline.id'))
     teach_id = Column(Integer, ForeignKey('Teacher.id'))
     gruppa_id = Column(Integer, ForeignKey('Gruppa.id'))
+    numberpara = Column(Integer)
     para = relationship("Para", backref="abstractpara", viewonly=False)
 
-    def __init__(self, teacher, discipline, gruppa):
+    def __init__(self, teacher, discipline, gruppa, numberpara):
         self.teacher = teacher
         self.discipline = discipline
         self.gruppa = gruppa
+        self.numberpara = numberpara
 
     #def __repr__(self):
         #pass
@@ -154,12 +155,5 @@ class Para(Base):
         self.timebegin = timebegin
         self.timeend = timeend
 
-    def __repr__(self):
-        pass
-
-
 if __name__ == '__main__':
     Base.metadata.create_all(engine)
-
-
-

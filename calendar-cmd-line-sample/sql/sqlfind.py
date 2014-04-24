@@ -32,7 +32,8 @@ for para in excel:
             print '%s: %s' % (gruppa.id, gruppa.name)
             gruppastate = gruppa
 
-    sqlabspara = AbstractPara(teacherstate, disciplinestate, gruppastate)
+    numberpara = int(para[-1]) #Узнаем номер пары
+    sqlabspara = AbstractPara(teacherstate, disciplinestate, gruppastate, numberpara)
     session.add(sqlabspara)
 
 session.commit()

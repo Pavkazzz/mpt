@@ -17,7 +17,6 @@ def creategrupplist(book):
 
     return grupplist
 
-
 if __name__ == '__main__':
 
     book = xlrd.open_workbook('2203_Raspisanie.xls')
