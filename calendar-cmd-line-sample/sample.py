@@ -123,31 +123,30 @@ def para_minute(para):
     pass
 
 
-def time_to_atom(year, month, day, hour, minute, para=1):
+def time_to_atom(year, month, day, hour, minute):
     return my_rfc3339.rfc3339(datetime.datetime(year, month, day, hour, minute, tzinfo=pytz.timezone('Etc/GMT-4')))
     #2014-04-12T16:30:00.000+04:00
     #что-то типа такого
 
 
-def main(argv):
+def init(argv):
     # Parse the command-line flags.
     flags = parser.parse_args(argv[1:])
-
-    # If the credentials don't exist or are invalid run through the native client
-    # flow. The Storage object will ensure that if successful the good
-    # credentials will get written back to the file.
     storage = file.Storage('sample.dat')
     credentials = storage.get()
     if credentials is None or credentials.invalid:
         credentials = tools.run_flow(FLOW, storage, flags)
-
     # Create an httplib2.Http object to handle our HTTP requests and authorize it
     # with our good Credentials.
     http = httplib2.Http()
     http = credentials.authorize(http)
-
     # Construct the service object for the interacting with the Calendar API.
     service = discovery.build('calendar', 'v3', http=http)
+    return service
+
+
+def main(argv):
+    service = init(argv)
 
     try:
         print("Success! Now add code here.")
@@ -156,7 +155,6 @@ def main(argv):
         end = time_to_atom(2014, 4, 13, 19, 30)
 
         add_event(service, start, end, 'Проверка добавления', trace=True)
-
 
         print_events(service, trace=False)
 
