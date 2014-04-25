@@ -8,6 +8,7 @@ import re
 #print sheet.ncols
 
 
+
 def valid(value):
     if isinstance(value, float) or value in ['', u'БИРЮЛЕВО', u'БИБЛИОТЕЧНЫЙ ДЕНЬ', u'ПРАКТИКА']:
         return False
@@ -36,11 +37,15 @@ def numerator(book):
                     array.append(cells.value + ' ' + sheet.cell(8, col_index).value)
                     #Номера пар
                     if u'  ' in array[-1]:
-                        array[-1] += ' ' + unicode(sheet.cell(row_index, col_index - 1).value)[0]
+                        array[-1] += ' ' + sheet.cell(
+                            int((float(row_index - 9) // 14) * 14 + 9), 0).value.replace('\n', '').lower() + ' ' + \
+                                     unicode(sheet.cell(row_index, col_index - 1).value)[0]
                 #Фамилии и инициалы преподавателей: пример Т.В. Руденко и номер пары
                 if re.match(ur'^[А-я]\.\s*[А-я]\.\s*[-А-яё]+', cells.value, re.UNICODE) is not None:
                     array[-1] += (
-                        ' ' + cells.value + ' ' + unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
+                        ' ' + cells.value + ' ' +
+                        sheet.cell(int((float(row_index - 9) // 14) * 14 + 9), 0).value.replace('\n', '').lower() +
+                        ' ' + unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
 
     return array
 
@@ -48,7 +53,6 @@ def numerator(book):
 def denominator(book):
     """
     Неделя знаменатель
-
     :param book: excel таблица
     """
     array = []
@@ -66,26 +70,28 @@ def denominator(book):
                 if row_index % 2 == 0:
                     #Добавляем фамилии и номера пар
                     if re.match(ur'[А-я]\.\s*[А-я]\.\s*[-А-яё]+', cells.value, flags=re.UNICODE):
-                        array[-1] += ' ' + cells.value + ' ' + sheet.cell(8, col_index).value + ' ' + \
-                                     unicode(sheet.cell(row_index - 1, col_index - 1).value)[0]
-                    else:
-                        #если пара уже из препода и предмета и добваляем номер пары
+                        array[-1] += ' ' + cells.value + ' ' + sheet.cell(8, col_index).value + ' ' + sheet.cell(
+                                int((float(row_index - 9) // 14) * 14 + 9), 0).value.replace('\n', '').lower() + ' ' + \
+                                unicode(sheet.cell(row_index - 1, col_index - 1).value)[0]
+                    else:  #если пара уже из препода и предмета и добваляем номер пары
                         array.append(cells.value + ' ' + sheet.cell(8, col_index).value + ' ' +
-                                     unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
-                                       #TODO: Переделать нормально
+                                     sheet.cell(int((float(row_index - 9) // 14) * 14 + 9), 0).value.replace('\n','').lower() +
+                                     ' ' + unicode(sheet.cell(row_index - 1, col_index - 1).value)[0])
+                        #TODO: Переделать нормально
 
                 else:
-                    #Добавляем предметы
+                #Добавляем предметы
                     if re.search(ur'[А-я]\.\s*[А-я]\.\s*[-А-я]+', cells.value, re.UNICODE) is None:
                         array.append(cells.value.lstrip(' '))
-
     return array
 
 
+#9 23 37 51 65 79 93
+
 if __name__ == '__main__':
     book = xlrd.open_workbook('2203_Raspisanie.xls')
-    #excel = numerator(book)
-    excel = denominator(book)
+    excel = numerator(book)
+    #excel = denominator(book)
     for item in excel:
         print item
 

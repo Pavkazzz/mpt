@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sqlinto.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sqlout.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/excel_parser/dayparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/sqlPara.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/excel.py" afterPath="$PROJECT_DIR$/excel_parser/excel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/gruppaparser.py" afterPath="$PROJECT_DIR$/excel_parser/gruppaparser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sql.py" afterPath="$PROJECT_DIR$/sql/sql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlfind.py" afterPath="$PROJECT_DIR$/sql/sqlfind.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,7 +33,7 @@
       <file leaf-file-name="sql.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="36" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0" vertical-offset="1926" max-vertical-offset="2916">
+            <state line="126" column="8" selection-start="2928" selection-end="2928" vertical-scroll-proportion="0.0" vertical-offset="1806" max-vertical-offset="2952">
               <folding />
             </state>
           </provider>
@@ -43,49 +42,25 @@
       <file leaf-file-name="sqlexcel.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/sqlexcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-              <folding>
-                <element signature="e#24#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlfind.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/sqlfind.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="49" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.65806454" vertical-offset="0" max-vertical-offset="930">
-              <folding>
-                <element signature="e#24#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqltest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/sqltest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+            <state line="12" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excel.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
+      <file leaf-file-name="sqlfind.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/sqlfind.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="83" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1746">
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-              </folding>
+            <state line="8" column="71" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gruppaparser.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
+      <file leaf-file-name="sqlPara.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/sqlPara.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="8" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="0.21875" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -140,9 +115,11 @@
         <option value="$PROJECT_DIR$/sql/sqlexcel.py" />
         <option value="$PROJECT_DIR$/excel_parser/gruppaparser.py" />
         <option value="$PROJECT_DIR$/sql/sqlinto.py" />
-        <option value="$PROJECT_DIR$/excel_parser/excel.py" />
+        <option value="$PROJECT_DIR$/excel_parser/dayparser.py" />
         <option value="$PROJECT_DIR$/sql/sql.py" />
+        <option value="$PROJECT_DIR$/excel_parser/excel.py" />
         <option value="$PROJECT_DIR$/sql/sqlfind.py" />
+        <option value="$PROJECT_DIR$/sql/sqlPara.py" />
       </list>
     </option>
   </component>
@@ -280,27 +257,7 @@
       <recent name="$PROJECT_DIR$/sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sqlfind (1)">
-    <configuration default="false" name="teacherparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/excel_parser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="calendar-cmd-line-sample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_parser/teacherparser.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.sqlPara">
     <configuration default="false" name="sqlteacher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,7 +314,25 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="gruppaparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="sqlPara" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql/sqlPara.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dayparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -369,7 +344,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="calendar-cmd-line-sample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_parser/gruppaparser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_parser/dayparser.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -611,19 +586,19 @@
       <item index="1" class="java.lang.String" itemvalue="Python.sqlinto" />
       <item index="2" class="java.lang.String" itemvalue="Python.slqto" />
       <item index="3" class="java.lang.String" itemvalue="Python.sql" />
-      <item index="4" class="java.lang.String" itemvalue="Python.teacherparser" />
-      <item index="5" class="java.lang.String" itemvalue="Python.sqlteacher" />
-      <item index="6" class="java.lang.String" itemvalue="Python.sqlfind (1)" />
-      <item index="7" class="java.lang.String" itemvalue="Python.excel" />
-      <item index="8" class="java.lang.String" itemvalue="Python.gruppaparser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sqlteacher" />
+      <item index="5" class="java.lang.String" itemvalue="Python.sqlfind (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Python.excel" />
+      <item index="7" class="java.lang.String" itemvalue="Python.sqlPara" />
+      <item index="8" class="java.lang.String" itemvalue="Python.dayparser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sqlfind (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqlteacher" />
-        <item index="2" class="java.lang.String" itemvalue="Python.excel" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gruppaparser" />
-        <item index="4" class="java.lang.String" itemvalue="Python.teacherparser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sqlPara" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sqlfind (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sqlteacher" />
+        <item index="3" class="java.lang.String" itemvalue="Python.excel" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dayparser" />
       </list>
     </recent_temporary>
   </component>
@@ -712,7 +687,11 @@
       <created>1398334071883</created>
       <updated>1398334071883</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="number para">
+      <created>1398338842468</created>
+      <updated>1398338842468</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -742,15 +721,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12862414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,32 +777,18 @@
     <MESSAGE value="pizdec" />
     <MESSAGE value="a lot of things" />
     <MESSAGE value="style&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="style&#10;" />
+    <MESSAGE value="number para" />
+    <option name="LAST_COMMIT_MESSAGE" value="number para" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="54" />
+      <option name="time" value="55" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/xlrd/formula.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2068" column="4" selection-start="90592" selection-end="90592" vertical-scroll-proportion="0.33297873" vertical-offset="36821" max-vertical-offset="39240" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/unicodedata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="4" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.09443861" vertical-offset="2052" max-vertical-offset="5094" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="0" selection-start="15181" selection-end="15181" vertical-scroll-proportion="0.3326338" vertical-offset="7351" max-vertical-offset="17190" />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="25" selection-start="3970" selection-end="3970" vertical-scroll-proportion="0.5424974" vertical-offset="2129" max-vertical-offset="4914" />
@@ -919,11 +884,6 @@
         <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/change_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="84" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
@@ -998,44 +958,17 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1475" column="0" selection-start="58030" selection-end="58030" vertical-scroll-proportion="0.33264887" vertical-offset="26118" max-vertical-offset="43164">
-          <folding />
-        </state>
+        <state line="1475" column="0" selection-start="58030" selection-end="58030" vertical-scroll-proportion="0.33264887" vertical-offset="26118" max-vertical-offset="43164" />
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="4" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.33333334" vertical-offset="2191" max-vertical-offset="5958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/disciplineparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="37" selection-start="663" selection-end="663" vertical-scroll-proportion="0.675" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/teacherparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6464286" vertical-offset="232" max-vertical-offset="792">
-          <folding />
-        </state>
+        <state line="133" column="4" selection-start="6420" selection-end="6420" vertical-scroll-proportion="0.33333334" vertical-offset="2191" max-vertical-offset="5958" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
@@ -1047,25 +980,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
+    <entry file="file://$PROJECT_DIR$/sql/sqltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="83" selection-start="2321" selection-end="2321" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1746">
+        <state line="20" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/disciplineparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/teacherparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="56" selection-start="395" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding>
             <element signature="e#25#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sql.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="36" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0" vertical-offset="1926" max-vertical-offset="2916">
+        <state line="1823" column="8" selection-start="39511" selection-end="39511" vertical-scroll-proportion="0.33333334" vertical-offset="32604" max-vertical-offset="44424">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shedule.db">
+    <entry file="file://$PROJECT_DIR$/excel_parser/dayparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="10" selection-start="12780" selection-end="12780" vertical-scroll-proportion="0.37186477" vertical-offset="2161" max-vertical-offset="4698">
+        <state line="12" column="59" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="31" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-5.967033" vertical-offset="4158" max-vertical-offset="25596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="5" selection-start="3491" selection-end="3491" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1836">
           <folding />
         </state>
       </provider>
@@ -1073,18 +1032,49 @@
     <entry file="file://$PROJECT_DIR$/sql/sqlexcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="756">
-          <folding>
-            <element signature="e#24#96#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shedule.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="434" column="0" selection-start="15181" selection-end="15181" vertical-scroll-proportion="0.33333334" vertical-offset="7476" max-vertical-offset="17190">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/sqlfind.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="49" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.65806454" vertical-offset="0" max-vertical-offset="930">
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-          </folding>
+        <state line="8" column="71" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="8" selection-start="2928" selection-end="2928" vertical-scroll-proportion="0.0" vertical-offset="2022" max-vertical-offset="2952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.03125" vertical-offset="108" max-vertical-offset="3006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sqlPara.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="0.21875" vertical-offset="0" max-vertical-offset="576">
+          <folding />
         </state>
       </provider>
     </entry>

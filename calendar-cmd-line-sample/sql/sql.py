@@ -121,13 +121,15 @@ class AbstractPara(Base):
     teach_id = Column(Integer, ForeignKey('Teacher.id'))
     gruppa_id = Column(Integer, ForeignKey('Gruppa.id'))
     numberpara = Column(Integer)
+    dayofweek = Column(Unicode)
     para = relationship("Para", backref="abstractpara", viewonly=False)
 
-    def __init__(self, teacher, discipline, gruppa, numberpara):
+    def __init__(self, teacher, discipline, gruppa, numberpara, dayofweek):
         self.teacher = teacher
         self.discipline = discipline
         self.gruppa = gruppa
         self.numberpara = numberpara
+        self.dayofweek = dayofweek
 
     #def __repr__(self):
         #pass
