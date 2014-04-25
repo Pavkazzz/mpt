@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import urllib2
-import script_table
+
+from mptparser import script_table
+
 
 html_doc = urllib2.urlopen('http://mpt.ru/education/allocation/alloc_2203_p329.htm').read()
 

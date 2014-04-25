@@ -8,7 +8,7 @@ from sqlalchemy import Column, Integer, Unicode, ForeignKey, Date, Time
 
 Base = declarative_base()
 
-engine = create_engine('sqlite:///../shedule.db', echo=True)
+engine = create_engine('sqlite:///../shedule.db', echo=False)
 
 Session = scoped_session(sessionmaker(bind=engine))
 
