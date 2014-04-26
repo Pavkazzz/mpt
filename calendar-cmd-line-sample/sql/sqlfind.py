@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from sql import *
-from excel_parser.excel import numerator, denominator
+from excel_parser.excel import excellist
 import xlrd
 
 book = xlrd.open_workbook('../2203_Raspisanie.xls')
-exceln = numerator(book)  #Числитель
-exceld = denominator(book) #Знаменатель
+excel = excellist(book)
+
 week = [u'понедельник', u'вторник', u'среда', u'четверг', u'пятница', u'суббота']
 
 session = Session()
@@ -13,7 +13,7 @@ sqlteacher = session.query(Teacher).all()
 sqldiscipline = session.query(Discipline).all()
 sqlgruppa = session.query(Gruppa).all()
 
-for para in exceld:
+for para in excel:
     teacherid = 0
     disciplineid = 0
     gruppaid = 0

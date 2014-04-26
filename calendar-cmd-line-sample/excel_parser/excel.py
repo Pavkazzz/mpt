@@ -87,14 +87,17 @@ def denominator(book):
     return array
 
 
+def excellist(book):
+    return numerator(book) + denominator(book)
+
+
 #9 23 37 51 65 79 93
 
 if __name__ == '__main__':
     book = xlrd.open_workbook('../2203_Raspisanie.xls')
     #excel = numerator(book)
-    excel = denominator(book)
+    excel = excellist(book)
     for item in excel:
-        if item[-2] != u'1':
-            print 'fail'
-        #print item
+
+        print item
 
