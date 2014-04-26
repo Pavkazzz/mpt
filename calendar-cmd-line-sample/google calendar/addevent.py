@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-from sqlalchemy import create_engine
-from sqlalchemy.orm import scoped_session, sessionmaker
-from sql.sql import Para, Session
-import sample
 import sys
-import datetime
 
-engine = create_engine('sqlite:///shedule.db', echo=False)
+from sql.sql import Para
+import sqlcalendar
+import sample
+import getcalendar
 
-Session = scoped_session(sessionmaker(bind=engine))
+
+
+Session = sqlcalendar.main()
 
 session = Session()
 
@@ -23,8 +23,8 @@ for para in sqlpara:
         start = sample.time_to_atom(para.date.year, para.date.month, para.date.day, para.timebegin.hour, para.timebegin.minute)
         end = sample.time_to_atom(para.date.year, para.date.month, para.date.day, para.timeend.hour, para.timeend.minute)
 
-        sample.add_event(service, start, end, para.abstractpara.discipline.name, trace=True)
-
+        for gruppa, calendar_id in getcalendar.getcalendar():
+            sample.add_event(service, start, end, para.abstractpara.discipline.name, trace=True, from_who=calendar_id)
 
         sample.print_events(service, trace=False)
 

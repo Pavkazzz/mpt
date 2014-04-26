@@ -8,7 +8,7 @@ import xlrd
 session = Session()
 
 
-book = xlrd.open_workbook('../excel_parser/2203_Raspisanie.xls')
+book = xlrd.open_workbook('../2203_Raspisanie.xls')
 teacherlist = createteacherlist(book)
 
 for person in teacherlist:

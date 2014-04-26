@@ -29,13 +29,16 @@ import argparse
 import os
 import sys
 import datetime
-import my_rfc3339
-import httplib2
+
 import pytz
 from apiclient import discovery
+
+import my_rfc3339
+import httplib2
 from oauth2client import file
 from oauth2client import client
 from oauth2client import tools
+
 
 
 # Parser for command-line arguments.
@@ -111,7 +114,7 @@ def add_event(service, start, end, summary, calendar_id='primary', from_who='Pav
     if trace:
         print event
     try:
-        created_event = service.events().insert(calendarId='Pavkairl@gmail.com', body=event).execute()
+        created_event = service.events().insert(calendarId=from_who, body=event).execute()
     except:
         print 'Ошибка выполнения запроса'
 

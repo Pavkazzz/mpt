@@ -3,9 +3,9 @@ from sql import *
 from excel_parser.excel import numerator, denominator
 import xlrd
 
-book = xlrd.open_workbook('../excel_parser/2203_Raspisanie.xls')
-excel = numerator(book)  #Числитель
-#excel = denominator(book) #Знаменатель
+book = xlrd.open_workbook('../2203_Raspisanie.xls')
+exceln = numerator(book)  #Числитель
+exceld = denominator(book) #Знаменатель
 week = [u'понедельник', u'вторник', u'среда', u'четверг', u'пятница', u'суббота']
 
 session = Session()
@@ -13,7 +13,7 @@ sqlteacher = session.query(Teacher).all()
 sqldiscipline = session.query(Discipline).all()
 sqlgruppa = session.query(Gruppa).all()
 
-for para in excel:
+for para in exceld:
     teacherid = 0
     disciplineid = 0
     gruppaid = 0
@@ -37,10 +37,12 @@ for para in excel:
             print days
             daysofweek = days
 
+    numberweek = int(para[-2])
+    #print para[-2]
     #Узнаем номер пары
     numberpara = int(para[-1])
 
-    sqlabspara = AbstractPara(teacherstate, disciplinestate, gruppastate, numberpara, daysofweek)
+    sqlabspara = AbstractPara(teacherstate, disciplinestate, gruppastate, numberpara, daysofweek, numberweek)
     session.add(sqlabspara)
 
 session.commit()
