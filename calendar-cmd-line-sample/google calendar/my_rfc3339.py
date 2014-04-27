@@ -226,7 +226,7 @@ class LocalTimeTestCase(unittest.TestCase):
             # PST switch happens at 2AM on November 6, 2010
 
             # 0:59AM PDT
-            self.assertEqual(rfc3339(datetime.datetime(2010, 11, 7, 0, 59)),
+        is    self.assertEqual(rfc3339(datetime.datetime(2010, 11, 7, 0, 59)),
                              '2010-11-07T00:59:00-07:00')
 
             # 1:00AM PST

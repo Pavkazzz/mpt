@@ -13,6 +13,3 @@ res = script_table.parse_tables(html_doc, [0, 1, 2, 3, 4, 5], 1)
 for item in res:
     for item2 in item:
         print item2.encode('utf-8')
-
-
-

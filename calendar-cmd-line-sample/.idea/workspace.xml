@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sql_init.py" afterPath="$PROJECT_DIR$/sql_init.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google calendar/addevent.py" afterPath="$PROJECT_DIR$/google calendar/addevent.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/sqltest.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mptparser/change_parser.py" afterPath="$PROJECT_DIR$/mptparser/change_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/dayparser.py" afterPath="$PROJECT_DIR$/excel_parser/dayparser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google calendar/delete_event.py" afterPath="$PROJECT_DIR$/google calendar/delete_event.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/excel_parser/disciplineparse.py" afterPath="$PROJECT_DIR$/excel_parser/disciplineparse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google calendar/sample.dat" afterPath="$PROJECT_DIR$/google calendar/sample.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sql.py" afterPath="$PROJECT_DIR$/sql/sql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlPara.py" afterPath="$PROJECT_DIR$/sql/sqlPara.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google calendar/sqlcalendar.py" afterPath="$PROJECT_DIR$/google calendar/sqlcalendar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlexcel.py" afterPath="$PROJECT_DIR$/sql/sqlexcel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/sqlfind.py" afterPath="$PROJECT_DIR$/sql/sqlfind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mptparser/time_parser.py" afterPath="$PROJECT_DIR$/mptparser/time_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google calendar/my_rfc3339.py" afterPath="$PROJECT_DIR$/google calendar/my_rfc3339.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mptparser/shedule_parser.py" afterPath="$PROJECT_DIR$/mptparser/shedule_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calendar-cmd-line-sample.iws" />
@@ -36,95 +29,7 @@
     <favorites_list name="calendar-cmd-line-sample" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sqlfind.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/sqlfind.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-              <folding>
-                <element signature="e#24#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlPara.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/sqlPara.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="1" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="648">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addevent.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google calendar/addevent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="16" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="864">
-              <folding>
-                <element signature="e#24#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dayparser.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excel_parser/dayparser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUI.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getcalendar.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google calendar/getcalendar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_event.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google calendar/delete_event.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql_init.sh" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql_init.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="0.30740038" vertical-offset="0" max-vertical-offset="527">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shedule.db" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shedule.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2016">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -143,8 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AtomTime.py" />
-        <option value="$PROJECT_DIR$/script_table.py" />
         <option value="$PROJECT_DIR$/shedule_parser.py" />
         <option value="$PROJECT_DIR$/excel.py" />
         <option value="$PROJECT_DIR$/sqlsample.py" />
@@ -167,7 +70,6 @@
         <option value="$PROJECT_DIR$/change_parser.py" />
         <option value="$PROJECT_DIR$/time_parser.py" />
         <option value="$PROJECT_DIR$/mptparser.py" />
-        <option value="$PROJECT_DIR$/mptparser/change_parser.py" />
         <option value="$PROJECT_DIR$/sql/sqlmain.py" />
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/main.py" />
@@ -183,24 +85,28 @@
         <option value="$PROJECT_DIR$/sql_init.py" />
         <option value="$PROJECT_DIR$/google calendar/getcalendar.py" />
         <option value="$PROJECT_DIR$/excel_parser/disciplineparse.py" />
-        <option value="$PROJECT_DIR$/excel_parser/dayparser.py" />
         <option value="$PROJECT_DIR$/mptparser/time_parser.py" />
         <option value="$PROJECT_DIR$/google calendar/delete_event.py" />
         <option value="$PROJECT_DIR$/sql/sqlexcel.py" />
         <option value="$PROJECT_DIR$/sql/sqlfind.py" />
-        <option value="$PROJECT_DIR$/sql/sqlPara.py" />
         <option value="$PROJECT_DIR$/sql/sql.py" />
         <option value="$PROJECT_DIR$/shedule.db" />
         <option value="$PROJECT_DIR$/google calendar/sqlcalendar.py" />
         <option value="$PROJECT_DIR$/sql_init.sh" />
         <option value="$PROJECT_DIR$/google calendar/addevent.py" />
+        <option value="$PROJECT_DIR$/excel_parser/dayparser.py" />
+        <option value="$PROJECT_DIR$/google calendar/my_rfc3339.py" />
+        <option value="$PROJECT_DIR$/mptparser/shedule_parser.py" />
+        <option value="$PROJECT_DIR$/mptparser/change_parser.py" />
+        <option value="$PROJECT_DIR$/sql/sqlPara.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="960" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,34 +188,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excel_parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -348,7 +226,7 @@
       <recent name="$PROJECT_DIR$/sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Bash.sql_init.sh (4)">
+  <component name="RunManager" selected="Python.shedule_parser">
     <configuration default="false" name="addevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,19 +245,6 @@
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sql_init.sh (2)" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="calendar-cmd-line-sample" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_init.sh" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="BashRunner" />
-      <ConfigurationWrapper RunnerId="BashRunner" />
       <method />
     </configuration>
     <configuration default="false" name="sql_init.sh (3)" type="BashConfigurationType" factoryName="Bash" temporary="true">
@@ -419,6 +284,24 @@
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="BashRunner" />
       <ConfigurationWrapper RunnerId="BashRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="shedule_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mptparser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="calendar-cmd-line-sample" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mptparser/shedule_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -669,18 +552,18 @@
       <item index="2" class="java.lang.String" itemvalue="Python.slqto" />
       <item index="3" class="java.lang.String" itemvalue="Python.sql" />
       <item index="4" class="java.lang.String" itemvalue="Python.addevent" />
-      <item index="5" class="java.lang.String" itemvalue="Bash.sql_init.sh (2)" />
-      <item index="6" class="java.lang.String" itemvalue="Bash.sql_init.sh (3)" />
-      <item index="7" class="java.lang.String" itemvalue="Bash.sql_init.sh" />
-      <item index="8" class="java.lang.String" itemvalue="Bash.sql_init.sh (4)" />
+      <item index="5" class="java.lang.String" itemvalue="Bash.sql_init.sh (3)" />
+      <item index="6" class="java.lang.String" itemvalue="Bash.sql_init.sh" />
+      <item index="7" class="java.lang.String" itemvalue="Bash.sql_init.sh (4)" />
+      <item index="8" class="java.lang.String" itemvalue="Python.shedule_parser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Bash.sql_init.sh (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Bash.sql_init.sh" />
-        <item index="2" class="java.lang.String" itemvalue="Bash.sql_init.sh (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.addevent" />
-        <item index="4" class="java.lang.String" itemvalue="Bash.sql_init.sh (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.shedule_parser" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.sql_init.sh (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.sql_init.sh" />
+        <item index="3" class="java.lang.String" itemvalue="Bash.sql_init.sh (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.addevent" />
       </list>
     </recent_temporary>
   </component>
@@ -797,7 +680,11 @@
       <created>1398581878543</created>
       <updated>1398581878543</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="final">
+      <created>1398621403295</created>
+      <updated>1398621403295</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -821,15 +708,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="960" y="24" width="960" height="1056" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12862414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26040554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41979167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4195279" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -841,6 +727,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -890,7 +777,8 @@
     <MESSAGE value="Последние дни практики, мы комитили как могли&#10;&#10;" />
     <MESSAGE value="Наконецто работает" />
     <MESSAGE value="sataday time&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="sataday time&#10;" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -901,6 +789,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shedule.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/sqlalchemy/event/attr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="216" column="0" selection-start="7678" selection-end="7678" vertical-scroll-proportion="0.0" vertical-offset="3638" max-vertical-offset="6930" />
@@ -931,11 +826,6 @@
         <state line="400" column="0" selection-start="16148" selection-end="16148" vertical-scroll-proportion="0.0" vertical-offset="6866" max-vertical-offset="43524" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1823" column="8" selection-start="39511" selection-end="39511" vertical-scroll-proportion="0.33333334" vertical-offset="32604" max-vertical-offset="44424" />
@@ -951,11 +841,6 @@
         <state line="434" column="0" selection-start="15181" selection-end="15181" vertical-scroll-proportion="0.33333334" vertical-offset="7476" max-vertical-offset="17190" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/teacherparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="395" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3328" column="8" selection-start="113665" selection-end="113665" vertical-scroll-proportion="0.33333334" vertical-offset="59779" max-vertical-offset="92934" />
@@ -969,11 +854,6 @@
     <entry file="file://$PROJECT_DIR$/sql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.053254437" vertical-offset="0" max-vertical-offset="676" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/client_secrets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="337" />
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/configparser.py">
@@ -1001,34 +881,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mptparser/script_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.026587889" vertical-offset="108" max-vertical-offset="3006" />
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/urllib2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="4" selection-start="4155" selection-end="4155" vertical-scroll-proportion="0.3323486" vertical-offset="1737" max-vertical-offset="26334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/addcalendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="147" selection-end="187" vertical-scroll-proportion="0.15952733" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mptparser/change_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.15952733" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mptparser/weekparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="260" selection-end="260" vertical-scroll-proportion="0.23929098" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mptparser/shedule_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.4519941" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/datetime.py">
@@ -1043,107 +898,34 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/xlrd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="0" selection-start="18574" selection-end="18574" vertical-scroll-proportion="0.33333334" vertical-offset="6856" max-vertical-offset="8370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="8" selection-start="3664" selection-end="3664" vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="1944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="4" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.33333334" vertical-offset="1778" max-vertical-offset="3168">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mptparser/time_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel_parser/disciplineparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="393" column="0" selection-start="18574" selection-end="18574" vertical-scroll-proportion="0.33333334" vertical-offset="6856" max-vertical-offset="8370" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_parser/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.019354839" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.019354839" vertical-offset="0" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="24" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0" vertical-offset="2432" max-vertical-offset="2970">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqlexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/delete_event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/sample.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.077419356" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/getcalendar.py">
+    <entry file="file://$PROJECT_DIR$/sql_init.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/sqlcalendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.133829" vertical-offset="0" max-vertical-offset="538">
+        <state line="9" column="25" selection-start="242" selection-end="242" vertical-scroll-proportion="0.17419355" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
@@ -1157,41 +939,156 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_parser/dayparser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.020833334" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/disciplineparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.14173229" vertical-offset="0" max-vertical-offset="889">
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sqlPara.py">
+    <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="648">
+        <state line="101" column="8" selection-start="3664" selection-end="3664" vertical-scroll-proportion="0.8841395" vertical-offset="1014" max-vertical-offset="1944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/gruppaparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="422" selection-end="422" vertical-scroll-proportion="0.3847019" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_parser/teacherparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="471" selection-end="471" vertical-scroll-proportion="0.40494937" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="11" selection-start="778" selection-end="778" vertical-scroll-proportion="0.14583333" vertical-offset="252" max-vertical-offset="3168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/sqlcalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="168" selection-end="168" vertical-scroll-proportion="0.08209806" vertical-offset="0" max-vertical-offset="877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/addcalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.36944127" vertical-offset="0" max-vertical-offset="877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/delete_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="550" selection-end="550" vertical-scroll-proportion="0.28346458" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/addevent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="16" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.6074241" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/my_rfc3339.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="10" selection-start="8202" selection-end="8202" vertical-scroll-proportion="4.575928" vertical-offset="0" max-vertical-offset="4392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google calendar/getcalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.36445445" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mptparser/weekparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="281" selection-end="281" vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mptparser/time_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.6074241" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mptparser/shedule_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="262" selection-end="262" vertical-scroll-proportion="0.20247468" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mptparser/change_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="340" selection-end="340" vertical-scroll-proportion="0.24296963" vertical-offset="0" max-vertical-offset="889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="16" selection-start="3368" selection-end="3368" vertical-scroll-proportion="0.45331833" vertical-offset="2081" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mptparser/script_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="9" selection-start="625" selection-end="625" vertical-scroll-proportion="0.40494937" vertical-offset="0" max-vertical-offset="3006">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/sqlfind.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="936">
-          <folding>
-            <element signature="e#24#90#0" expanded="true" />
-          </folding>
+        <state line="21" column="13" selection-start="609" selection-end="609" vertical-scroll-proportion="0.37232846" vertical-offset="11" max-vertical-offset="900">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google calendar/addevent.py">
+    <entry file="file://$PROJECT_DIR$/sql/sqlPara.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="864">
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+        <state line="23" column="1" selection-start="492" selection-end="492" vertical-scroll-proportion="0.36445445" vertical-offset="0" max-vertical-offset="889">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql_init.sh">
+    <entry file="file://$PROJECT_DIR$/sql/sqlexcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="0.30740038" vertical-offset="0" max-vertical-offset="527">
+        <state line="2" column="19" selection-start="54" selection-end="54" vertical-scroll-proportion="0.039911307" vertical-offset="0" max-vertical-offset="902">
           <folding />
         </state>
       </provider>
