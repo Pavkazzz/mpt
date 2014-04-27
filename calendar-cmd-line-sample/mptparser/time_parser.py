@@ -14,6 +14,8 @@ html_doc = urllib2.urlopen('http://mpt.ru/education/allocation.php?otdel=3&group
 def timeparse(numberpara, weekday):
     if weekday == 5:
         res = script_table.parse_tables(html_doc, [2], 1)
+    elif weekday in [1, 4]:
+        res = script_table.parse_tables(html_doc, [3], 1)
     else:
         res = script_table.parse_tables(html_doc, [1], 1)
 
@@ -25,7 +27,7 @@ def timeparse(numberpara, weekday):
 
 
 if __name__ == '__main__':
-    start, end = timeparse(4, 5)
-    res2 = script_table.parse_tables(html_doc, [2], 1)
+    start, end = timeparse(3, 2)
+    res2 = script_table.parse_tables(html_doc, [3], 1)
 
     print start, end

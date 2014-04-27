@@ -31,11 +31,11 @@ for para in sqlpara:
                             para.abstractpara.numberweek == \
                             (int(datetime.datetime.strftime(
                                     datetime.date(para.date.year, para.date.month, para.date.day), '%W')) % 2):
-                print("Success! New event %s, %s") % (para.abstractpara.gruppa.name, para.abstractpara.discipline.name)
+                #print("Success! New event %s, %s") % (para.abstractpara.gruppa.name, para.abstractpara.discipline.name)
 
                 sample.add_event(service, start, end, para.abstractpara.discipline.name, trace=True,
                                  from_who=gruppadict[gruppa])
-                print para.abstractpara.numberweek, gruppadict[gruppa]
+                print gruppa.encode('utf-8'), para.abstractpara.numberweek, para.abstractpara.discipline.name.encode('utf-8')
                 #sample.print_events(service, trace=False)
 
     except sample.client.AccessTokenRefreshError:

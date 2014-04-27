@@ -6,6 +6,9 @@ import xlrd
 from excel_parser import dayparser, excel
 from mptparser.time_parser import timeparse
 
+
+
+
 session = Session()
 
 sqlabspara = session.query(AbstractPara).all()
@@ -18,15 +21,16 @@ if (int(datetime.datetime.strftime(now, '%W')) % 2) == 0:  # числитель
 else:
     print 'Знаменатель'
 
-print now.weekday()
+#print now.weekday()
 for abspara in sqlabspara:
+    #Добавляем расписание на неделю в бд, откуда потем тащем в календарь
     for xday in xrange(0, 7):
         dateoffset = now + datetime.timedelta(days=xday)
         if dateoffset.weekday() == week.index(abspara.dayofweek):
             paradate = dateoffset
             start, end = timeparse(abspara.numberpara, paradate.weekday())
             sqlpara = Para(abspara, paradate, start, end)
-            print sqlpara.abstractpara.dayofweek
+            #print sqlpara.abstractpara.dayofweek
             session.add(sqlpara)
 
-#session.commit()
+session.commit()

@@ -28,7 +28,7 @@ def createdisciplinelist(book):
 
 if __name__ == '__main__':
 
-    book = xlrd.open_workbook('2203_Raspisanie.xls')
+    book = xlrd.open_workbook('../2203_Raspisanie.xls')
 
     disciplinelist = createdisciplinelist(book)
     for discipline in disciplinelist:
