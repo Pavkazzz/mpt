@@ -24,7 +24,7 @@ for abspara in sqlabspara:
         dateoffset = now + datetime.timedelta(days=xday)
         if dateoffset.weekday() == week.index(abspara.dayofweek):
             paradate = dateoffset
-            start, end = timeparse(abspara.numberpara)
+            start, end = timeparse(abspara.numberpara, paradate.weekday())
             sqlpara = Para(abspara, paradate, start, end)
             print sqlpara.abstractpara.dayofweek
             session.add(sqlpara)
