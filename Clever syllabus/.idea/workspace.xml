@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59e8cacd-fead-42ce-86d7-8e785ab76afe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql_init.sh" afterPath="$PROJECT_DIR$/sql_init.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Отчет.docx" afterPath="$PROJECT_DIR$/../Отчет.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calendar-cmd-line-sample.iws" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="addevent.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/google calendar/addevent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+            <state line="39" column="0" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="864">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="sql.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="32" selection-start="2877" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="2970">
+            <state line="124" column="32" selection-start="2877" selection-end="2877" vertical-scroll-proportion="0.0" vertical-offset="2232" max-vertical-offset="3024">
               <folding />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="shedule.db" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shedule.db">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="6664" selection-end="6664" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2016">
+            <state line="21" column="21" selection-start="6664" selection-end="6664" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="2016">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file leaf-file-name="sample.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/google calendar/sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="0" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.0" vertical-offset="2215" max-vertical-offset="3168">
+            <state line="149" column="0" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.0" vertical-offset="2682" max-vertical-offset="3384">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="excel.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="4" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.78545886" vertical-offset="1105" max-vertical-offset="1944">
+            <state line="99" column="4" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.84266984" vertical-offset="1057" max-vertical-offset="1944">
               <folding />
             </state>
           </provider>
@@ -249,30 +249,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="calendar-cmd-line-sample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar-cmd-line-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excel_parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -798,10 +774,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="24" width="960" height="1056" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4195279" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="200" y="207" width="1528" height="657" />
@@ -880,9 +856,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/google calendar/my_rfc3339.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="24" selection-start="0" selection-end="8669" vertical-scroll-proportion="0.0" vertical-offset="3654" max-vertical-offset="4428">
-          <folding />
-        </state>
+        <state line="203" column="24" selection-start="0" selection-end="8669" vertical-scroll-proportion="0.0" vertical-offset="3654" max-vertical-offset="4428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shedule.db">
@@ -1072,16 +1046,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/my_rfc3339.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="24" selection-start="0" selection-end="8669" vertical-scroll-proportion="0.0" vertical-offset="3265" max-vertical-offset="4392">
-          <folding />
-        </state>
+        <state line="203" column="24" selection-start="0" selection-end="8669" vertical-scroll-proportion="0.0" vertical-offset="3265" max-vertical-offset="4392" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/delete_event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="0" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
+        <state line="17" column="17" selection-start="0" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/getcalendar.py">
@@ -1121,9 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_init.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="84" selection-end="84" vertical-scroll-proportion="0.077419356" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
+        <state line="4" column="2" selection-start="84" selection-end="84" vertical-scroll-proportion="0.077419356" vertical-offset="0" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/google calendar/addevent.py">
@@ -1156,7 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excel_parser/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="4" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.78545886" vertical-offset="1105" max-vertical-offset="1944">
+        <state line="99" column="4" selection-start="3636" selection-end="3636" vertical-scroll-proportion="0.84266984" vertical-offset="1057" max-vertical-offset="1944">
           <folding />
         </state>
       </provider>
